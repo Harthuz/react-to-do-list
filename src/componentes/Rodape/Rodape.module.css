@@ -1,0 +1,7 @@
+.Rodape{
+    background-color: var(--blue-darker);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
