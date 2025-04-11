@@ -1,7 +1,8 @@
 .Botao{
     border: none;
-    padding: 6px;
+    padding: 4px;
     border-radius: 9px;
     color: var(--blue-light);
     background-color: var(--blue-darker);
+    width: 27px;
 }
