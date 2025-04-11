@@ -5,7 +5,7 @@ const FormularioTarefas = () => {
     return (
         <form action="">
             <CampoTexto />
-            <Botao texto="Adicionar tarefa"></Botao>
+            <Botao texto="Adicionar tarefa" tipo="primario" ></Botao>
         </form>
     )
 }
