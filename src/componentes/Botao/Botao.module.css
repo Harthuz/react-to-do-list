@@ -1,0 +1,7 @@
+.Botao{
+    border: none;
+    padding: 6px;
+    border-radius: 9px;
+    color: var(--blue-light);
+    background-color: var(--blue-darker);
+}
