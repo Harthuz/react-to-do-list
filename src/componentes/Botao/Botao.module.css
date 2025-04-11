@@ -1,8 +1,16 @@
-.Botao{
+.Botao {
     border: none;
     padding: 4px;
     border-radius: 9px;
+    width: 27px;
+}
+
+[tipo="primario"] {
     color: var(--blue-light);
     background-color: var(--blue-darker);
-    width: 27px;
+}
+
+[tipo="secundario"] {
+    color: white;
+    background-color: var(--orange-vibrant);
 }
