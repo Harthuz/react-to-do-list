@@ -12,9 +12,7 @@ function App() {
         <h1>Conteúdo</h1>
         <p>Olá, mundo!</p>
       </Conteudo>
-      <Rodape>
-        <p>© 2025 - Todos os direitos reservados.</p>
-      </Rodape>
+      <Rodape />
       
     </>
   )

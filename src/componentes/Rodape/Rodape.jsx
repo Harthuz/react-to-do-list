@@ -6,7 +6,7 @@ const Rodape = (props) => {
     return (
         <div>
             <footer className={style.Rodape}>
-                {children} {/* Renderiza o conteúdo passado como filho */}
+            <p>© React - {ano} - Desenvolvido por <a href="https://github.com/Harthuz/">@Harthuz</a> (github)</p>
             </footer>
         </div>
     );
