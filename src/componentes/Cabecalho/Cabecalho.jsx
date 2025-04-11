@@ -1,7 +1,12 @@
-const Cabecalho = () => {
+const Cabecalho = (props) => {
+    const {
+        nomeUsuario
+    } = props
+    
     return (
         <div>
-            Cabecalho
+            Olá {nomeUsuario}!
+            <br />
         </div>
     )
 }
