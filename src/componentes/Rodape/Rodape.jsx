@@ -3,6 +3,8 @@ import style from './Rodape.module.css'; // Importando o CSS do Rodape
 const Rodape = (props) => {
     const { children } = props; // Desestruturação para pegar o children do props
 
+    const ano = new Date().getFullYear(); // Obtém o ano atual
+
     return (
         <div>
             <footer className={style.Rodape}>
