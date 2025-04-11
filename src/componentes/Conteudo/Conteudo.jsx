@@ -1,7 +1,8 @@
-const Conteudo = () => {
+const Conteudo = (props) => {
+    const { children } = props;
     return (
         <div>
-            Conteudo
+            {children}
         </div>
     );
 }

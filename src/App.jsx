@@ -8,7 +8,11 @@ function App() {
   return (
     <>
       <Cabecalho nomeUsuario="Hernandes" />
-      <Conteudo />
+      <Conteudo>
+        <h1>Conteúdo</h1>
+        <p>Olá, mundo!</p>
+      </Conteudo>
+      
     </>
   )
 }
