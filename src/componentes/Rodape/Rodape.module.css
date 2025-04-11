@@ -5,3 +5,8 @@
     text-align: center;
     position: relative;
 }
+
+a{
+    color: var(--link);
+    text-decoration: none;
+}
