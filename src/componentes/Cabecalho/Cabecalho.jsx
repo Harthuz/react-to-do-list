@@ -1,12 +1,10 @@
-const Cabecalho = (props) => {
-    const {
-        nomeUsuario
-    } = props
-    
+import style from './Cabecalho.module.css'
+
+const Cabecalho = () => {   
     return (
-        <div>
-            Olá {nomeUsuario}!
-            <br />
+        <div className={style.Cabecalho}>
+            <span>ToDo </span>
+            List
         </div>
     )
 }

@@ -1,7 +1,10 @@
+import style from './Conteudo.module.css'
+
 const Conteudo = (props) => {
-    const { children } = props;
+    const { children } = props; // Desestruturação para pegar o children do props
+
     return (
-        <div>
+        <div className={style.Conteudo}>
             {children}
         </div>
     );

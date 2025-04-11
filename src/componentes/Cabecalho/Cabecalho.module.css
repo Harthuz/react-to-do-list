@@ -1,0 +1,12 @@
+.Cabecalho {
+    background-color: var(--blue-darker);
+    color: var(--blue-light);
+    padding: 0px 10px;
+    font-size: 1.5rem;
+
+}
+
+.Cabecalho span {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
