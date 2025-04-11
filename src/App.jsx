@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { Cabecalho, Conteudo, Rodape } from './componentes/'
+import { Inicial } from './pages/'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,8 +10,7 @@ function App() {
     <>
       <Cabecalho nomeUsuario="Hernandes" />
       <Conteudo>
-        <h1>Conteúdo</h1>
-        <p>Olá, mundo!</p>
+        <Inicial />
       </Conteudo>
       <Rodape />
       
