@@ -1,4 +1,5 @@
 import { FormularioTarefas } from "../../componentes"
+import { ListaTarefas } from "../../componentes/"
 import style from "./Inicial.module.css"
 
 const Inicial = () => {
@@ -7,6 +8,7 @@ const Inicial = () => {
             <h1>Bem-vindo à página inicial!</h1>
             <p>Esta é a página inicial do nosso aplicativo.</p>
             <FormularioTarefas />
+            <ListaTarefas />
         </div>
     )
 }

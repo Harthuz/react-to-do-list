@@ -11,6 +11,6 @@
 }
 
 [tipo="secundario"] {
-    color: white;
+    color: var(--orange-light);
     background-color: var(--orange-vibrant);
 }

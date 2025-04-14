@@ -1,0 +1,19 @@
+ul{
+    display: grid;
+    justify-content: center;
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 14px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--orange-light);
+    gap: 0.3rem;
+    background-color: var(--orange-medium);
+    min-width: 8rem;
+    padding: 6px;
+    border-radius: 9px;
+}
