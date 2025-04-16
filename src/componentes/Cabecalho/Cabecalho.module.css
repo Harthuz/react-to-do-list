@@ -4,9 +4,22 @@
     padding: 0px 10px;
     font-size: 2rem;
     text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
 }
 
-.Cabecalho span {
-    font-weight: 700;
-    font-size: 2rem;
+.List {
+    font-weight: 10;
+    font-size: 1.7rem;
+    margin: 0 0 0 3px;
+}
+
+.Sobre{
+    position: absolute;
+    font-size: 12pt;
+    right: 9px;
+    line-height: 0;
+    font-weight: 100;
 }

@@ -1,14 +1,17 @@
-import { Routes } from "react-router-dom";	
+import { Routes, Route } from 'react-router-dom';
 import { Inicial } from "./pages";
 import { Sobre } from "./pages";
+import { LayoutPadrao } from "./layouts/LayoutPadrao";
 
 const Router = () => {
-    return(
+    return (
         <Routes>
-            <Route path="/" element={<Inicial />}></Route>
-            <Route path="/sobre-nos" element={<Sobre />}></Route>
+            <Route path="/" element={<LayoutPadrao />}>
+                <Route path="inicial" element={<Inicial />} />
+                <Route path="sobre-nos" element={<Sobre />} />
+            </Route>
         </Routes>
-    )
-}
+    );
+};
 
-export { Router }
+export { Router };
